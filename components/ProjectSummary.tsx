@@ -11,6 +11,17 @@ export const ProjectSummary: React.FC = () => {
       <p className="text-slate-300">
         Actualmente, el proyecto ha completado la fase de fundación, incluyendo la autenticación de identidad de ICP y la sustitución de datos mock con integraciones reales. Las próximas fases se centrarán en la integración de canisters de ICP, la actualización de la interfaz de usuario con datos reales y la mejora de la experiencia del usuario.
       </p>
+      <div className="mt-6">
+        <h3 className="text-xl font-bold text-slate-100 tracking-wide mb-3">Progreso General</h3>
+        <ul className="list-disc list-inside text-slate-300 space-y-2">
+          <li>Set up ICP identity authentication foundation</li>
+          <li>Remove mock data from core services</li>
+          <li>Implement ICP identity canister integration</li>
+          <li>Replace simulated data in UI components</li>
+          <li>Implement proper loading states and error handling</li>
+          <li>Implement real-time data synchronization</li>
+        </ul>
+      </div>
     </div>
   );
 };
