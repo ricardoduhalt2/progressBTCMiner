@@ -20,15 +20,15 @@ const App: React.FC = () => {
               <ProjectSummary />
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
-              <ArchitectureDiagram />
+              <ImplementationPlan planText={IMPLEMENTATION_PLAN_TEXT} />
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
               <DashboardCard />
             </AnimatedSection>
-            <div className="w-px h-12 sm:h-16 bg-gradient-to-b from-brand-accent/50 to-transparent my-6 sm:my-8" aria-hidden="true" />
             <AnimatedSection delay={0.4}>
-              <ImplementationPlan planText={IMPLEMENTATION_PLAN_TEXT} />
+              <ArchitectureDiagram />
             </AnimatedSection>
+            <div className="w-px h-12 sm:h-16 bg-gradient-to-b from-brand-accent/50 to-transparent my-6 sm:my-8" aria-hidden="true" />
             <AnimatedSection delay={0.5}>
               <NextSteps />
             </AnimatedSection>

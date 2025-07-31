@@ -6,10 +6,10 @@ export const ProjectSummary: React.FC = () => {
     <div className="w-full max-w-4xl mx-auto bg-brand-card/50 p-6 sm:p-8 rounded-2xl border border-slate-800 mb-8">
       <h2 className="text-2xl font-bold text-slate-100 tracking-wide mb-4">Resumen del Proyecto</h2>
       <p className="text-slate-300 mb-4">
-        El objetivo de este proyecto es construir un dashboard de trading y arbitraje de criptomonedas que se integra con la blockchain de Internet Computer (ICP) para la autenticación de usuarios y el almacenamiento de datos.
+        BTCMiner is a comprehensive multi-chain token ecosystem developed by Mining Freedom that enables seamless cross-chain operations, liquidity management, and decentralized identity across Ethereum, BNB Chain, Base, Solana, and Internet Computer Protocol (ICP).
       </p>
       <p className="text-slate-300">
-        Actualmente, el proyecto ha completado la fase de fundación, incluyendo la autenticación de identidad de ICP y la sustitución de datos mock con integraciones reales. Las próximas fases se centrarán en la integración de canisters de ICP, la actualización de la interfaz de usuario con datos reales y la mejora de la experiencia del usuario.
+        Mining Freedom is dedicated to advancing blockchain technology and cryptocurrency mining solutions, providing innovative tools and platforms for the decentralized finance ecosystem. Our mission is to democratize access to blockchain technology while maintaining the highest standards of security and user experience.
       </p>
       <div className="mt-6">
         <h3 className="text-xl font-bold text-slate-100 tracking-wide mb-3">Progreso General</h3>

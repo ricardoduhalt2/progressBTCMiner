@@ -1,10 +1,15 @@
 import React from 'react';
 import { AnimatedDashboard } from './AnimatedDashboard';
+import { motion } from 'framer-motion';
 
 export const DashboardCard: React.FC = () => {
 
   return (
-    <div className="w-full max-w-4xl mx-auto relative group">
+    <motion.div 
+      className="w-full max-w-4xl mx-auto relative group"
+      whileHover={{ scale: 1.02, boxShadow: "0 10px 20px rgba(0, 0, 0, 0.4)" }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
        <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-600 to-blue-500 rounded-2xl blur opacity-25 group-hover:opacity-60 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
       <div className="relative bg-brand-card/80 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 shadow-xl shadow-black/40 w-full">
         <div className="flex items-center mb-4">
@@ -20,6 +25,6 @@ export const DashboardCard: React.FC = () => {
           <AnimatedDashboard />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
