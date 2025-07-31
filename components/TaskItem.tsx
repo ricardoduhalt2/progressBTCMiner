@@ -13,7 +13,7 @@ export const TaskItem: React.FC<{ task: Task; onToggle: (id: string) => void }> 
         </div>
         <p className={`
           flex-grow
-          ${task.checked ? 'text-slate-400 line-through' : 'text-slate-200'}
+          ${task.checked ? 'text-slate-400' : 'text-slate-200'}
           ${task.isMetadata ? 'italic text-slate-500 text-sm' : 'text-base'}
           ${isParent && !task.isMetadata ? 'font-semibold' : ''}
         `}>
