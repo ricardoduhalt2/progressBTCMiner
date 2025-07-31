@@ -12,10 +12,10 @@ import { IMPLEMENTATION_PLAN_TEXT } from './constants';
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-brand-dark text-slate-300 font-sans p-4 sm:p-6 md:p-8 print:p-0">
-      <div className="max-w-5xl mx-auto bg-brand-card rounded-2xl shadow-2xl shadow-black/50 overflow-hidden print:rounded-none print:shadow-none">
+      <div className="w-full mx-auto bg-brand-card rounded-2xl shadow-2xl shadow-black/50 overflow-hidden print:rounded-none print:shadow-none">
         <Header />
         <main className="p-4 sm:p-6 md:p-8">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-stretch">
             <AnimatedSection delay={0.1}>
               <ProjectSummary />
             </AnimatedSection>

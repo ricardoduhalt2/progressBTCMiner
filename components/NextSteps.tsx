@@ -3,7 +3,7 @@ import React from 'react';
 
 export const NextSteps: React.FC = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto bg-brand-card/50 p-6 sm:p-8 rounded-2xl border border-slate-800 mt-8">
+    <div className="w-full bg-brand-card/50 p-6 sm:p-8 rounded-2xl border border-slate-800 mt-8">
       <h2 className="text-2xl font-bold text-slate-100 tracking-wide mb-4">Próximos Pasos</h2>
       <ul className="list-disc list-inside text-slate-300 space-y-2">
         <li>Integrar los canisters de ICP para la gestión de perfiles de usuario y la vinculación de wallets.</li>

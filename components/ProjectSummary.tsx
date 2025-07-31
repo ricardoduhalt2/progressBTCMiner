@@ -3,7 +3,7 @@ import React from 'react';
 
 export const ProjectSummary: React.FC = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto bg-brand-card/50 p-6 sm:p-8 rounded-2xl border border-slate-800 mb-8">
+    <div className="w-full bg-brand-card/50 p-6 sm:p-8 rounded-2xl border border-slate-800 mb-8">
       <h2 className="text-2xl font-bold text-slate-100 tracking-wide mb-4">Resumen del Proyecto</h2>
       <p className="text-slate-300 mb-4">
         BTCMiner is a comprehensive multi-chain token ecosystem developed by Mining Freedom that enables seamless cross-chain operations, liquidity management, and decentralized identity across Ethereum, BNB Chain, Base, Solana, and Internet Computer Protocol (ICP).
